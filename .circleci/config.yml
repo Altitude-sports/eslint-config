@@ -1,0 +1,26 @@
+version: 2.1
+
+
+orbs:
+  node: circleci/node@5.0.1
+
+jobs:
+  publish:
+   executor: node/default
+   steps:
+    - checkout
+    - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN_PUBLISH}" > .npmrc
+    - run:
+          name: Publish package
+          command: npm publish
+
+workflows:
+  version: 2
+  publish-package:
+    jobs:
+      - publish:
+          filters:
+            branches:
+              only: main
