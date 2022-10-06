@@ -8,7 +8,7 @@ This package provides a base Javascript & TypeScript eslint configuration as an 
 On the root folder of your JS app, run the following command:
 
 ```bash
-yarn install --also=dev @devaltitude/eslint-config-base
+yarn add --also=dev @devaltitude/eslint-config-base
 ```
 
 ## Usage
