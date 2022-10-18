@@ -1,6 +1,6 @@
 {
-  "name": "@devaltitude/eslint-config-base",
-  "version": "1.0.1",
+  "name": "@devaltitude/eslint-base-config",
+  "version": "1.0.0",
   "main": "index.js",
   "keywords": [
     "Altitude-sports",
