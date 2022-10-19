@@ -1,4 +1,4 @@
-# @devaltitude/eslint-config-base 
+# @devaltitude/eslint-config-alti-base 
 
 This package provides a base Javascript & TypeScript eslint configuration as an extensible shared configuration.
 
@@ -8,16 +8,16 @@ This package provides a base Javascript & TypeScript eslint configuration as an 
 On the root folder of your JS app, run the following command:
 
 ```bash
-yarn add --also=dev @devaltitude/eslint-config-base
+yarn add --also=dev @devaltitude/eslint-config-alti-base
 ```
 
 ## Usage
 
-Once the package has been successfully installed, you can add `@devaltitude/eslint-config-base` to your `.eslintrc`.
+Once the package has been successfully installed, you can add `@devaltitude/eslint-config-alti-base` to your `.eslintrc`.
 
 ```js
 {
-  "extends": "@devaltitude/eslint-config-base"
+  "extends": "@devaltitude/eslint-config-alti-base"
 }
 
 ```
@@ -47,4 +47,4 @@ Congratulations 🎉🎉 The Dev Altitude team thanks you ✨.
 > 📝 Once the feature branch has been merged a CI pipeline will be triggered. After a few seconds your package should be ready to use.
 
 ## Communication 💬
-Once you have validated the new version is live here: [@devaltitude/eslint-config-base](https://www.npmjs.com/package/@devaltitude/eslint-config-base). Please send a notification through the Google Tech Team space.
+Once you have validated the new version is live here: [@devaltitude/eslint-config-alti-base](https://www.npmjs.com/package/@devaltitude/eslint-config-alti-base). Please send a notification through the Google Tech Team space.
