@@ -16,6 +16,10 @@ module.exports = {
     /* ecmaFeatures: {
       impliedStrict: true,
     }, */
+    project: [
+      './tsconfig.json',
+      './*/tsconfig.json',
+    ]
   },
   overrides: [
     {
@@ -50,5 +54,6 @@ module.exports = {
     'max-len': ['error', {
       code: 120,
     }],
+    '@typescript-eslint/no-floating-promises': 'error',
   },
 };
